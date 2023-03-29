@@ -12,7 +12,7 @@ my $config = {
 };
 
 # Pre-defined resolutions
-my $versions = [ '320', '640', '720', '1280', '1920', '2560' ];
+my $versions = [ '240', '320', '640', '720', '1280', '1920' ];
 
 sub create_multiple_bitrate_versions {
 	my ($filename) = @_;
